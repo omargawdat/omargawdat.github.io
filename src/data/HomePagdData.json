@@ -19,17 +19,17 @@
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
-      "href": "https://www.linkedin.com/in/your-linkedin-profile"
+      "href": "https://www.linkedin.com/in/omar-gawdat-2635b51b0  "
     },
     {
-      "icon": "fa-solid:code",
+      "customIcon": "/images/code-forces.svg",
       "iconBgClass": "codeforces",
       "href": "https://codeforces.com/profile/omar.gawdat"
     },
     {
       "icon": "fa-brands:github",
       "iconBgClass": "github",
-      "href": "https://github.com/your-github-username"
+      "href": "https://github.com/omargawdat"
     }
   ],
   "brands": [
