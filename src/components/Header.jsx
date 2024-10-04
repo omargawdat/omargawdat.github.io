@@ -26,16 +26,16 @@ export default function Header() {
       } ${scrolled ? 'fixed-header' : ''}`}
     >
       <div className="container">
-        <div className="logo">
-          <Link className="navbar-brand" href="#">
-            <img
-              className="logo-light"
-              title
-              alt="Logo"
-              src="/images/logo-light.svg"
-            />
-          </Link>
-        </div>
+        {/*<div className="logo">*/}
+        {/*  <Link className="navbar-brand" href="#">*/}
+        {/*    <img*/}
+        {/*      className="logo-light"*/}
+        {/*      title*/}
+        {/*      alt="Logo"*/}
+        {/*      src="/images/logo-light.svg"*/}
+        {/*    />*/}
+        {/*  </Link>*/}
+        {/*</div>*/}
         {/* / */}
         <ul className="main-menu">
           <li>

@@ -19,10 +19,10 @@
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
-      "href": "https://www.linkedin.com/in/omar-gawdat-2635b51b0  "
+      "href": "https://www.linkedin.com/in/omar-gawdat-2635b51b0"
     },
     {
-      "customIcon": "/images/code-forces.svg",
+      "customIcon": "/images/code-forces_2.svg",
       "iconBgClass": "codeforces",
       "href": "https://codeforces.com/profile/omar.gawdat"
     },
@@ -38,60 +38,28 @@
     }
   ],
   "brands": [
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-1.svg",
-      "alt": "Logolpsum"
-    },
-    {
-      "src": "/images/brand-2.svg",
-      "alt": "Logolpsum"
-    }
   ],
   "about": {
-    "imgSrc": "/images/about-banner.png",
-    "miniTitle": "About Us",
-    "title": "I AM AVAILABLE FOR <span>UI UX DESIGN</span> PROJECTS",
-    "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "imgSrc": "/images/me.png",
+    "miniTitle": "About Me",
+    "title": "I SPECIALIZE IN <span>BACKEND ENGINEERING</span> AND AWS SOLUTIONS",
+    "description": "With 3 years of experience in backend development and AWS technologies, I excel in building scalable, efficient server-side solutions. My expertise lies in designing robust systems and architectures following industry best practices. I'm passionate about solving complex problems, optimizing cloud infrastructures, and delivering high-performance backend solutions that drive business growth. From developing RESTful APIs to managing containerized applications, I'm committed to creating innovative backend systems that meet and exceed client expectations.",
     "funfacts": [
       {
-        "title": "Google Review",
-        "number": 280
+        "title": "Projects Completed",
+        "number": 11
       },
       {
         "title": "Years Experience",
-        "number": 15
+        "number": 3
       },
       {
-        "title": "Awward Winning",
-        "number": 49
+        "title": "AWS Certifications",
+        "number": 2
       }
     ],
-    "btnText": "Get in touch",
-    "btnUrl": "contactus"
+    "btnText": "View My Projects",
+    "btnUrl": "projects"
   },
   "projects": {
     "sectionHeading": {
