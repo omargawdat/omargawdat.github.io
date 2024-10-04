@@ -1,6 +1,6 @@
 {
   "hero": {
-    "imgUrl": "/images/me.png",
+    "imgUrl": "/images/me-no-bg.png",
     "name": "Omar Gawdat",
     "heading": "Hello! I'm Omar",
     "typingText": [
@@ -40,7 +40,7 @@
   "brands": [
   ],
   "about": {
-    "imgSrc": "/images/me.png",
+    "imgSrc": "/images/software.webp",
     "miniTitle": "About Me",
     "title": "I SPECIALIZE IN <span>BACKEND ENGINEERING</span> AND AWS SOLUTIONS",
     "description": "With 3 years of experience in backend development and AWS technologies, I excel in building scalable, efficient server-side solutions. My expertise lies in designing robust systems and architectures following industry best practices. I'm passionate about solving complex problems, optimizing cloud infrastructures, and delivering high-performance backend solutions that drive business growth. From developing RESTful APIs to managing containerized applications, I'm committed to creating innovative backend systems that meet and exceed client expectations.",
@@ -56,6 +56,14 @@
       {
         "title": "AWS Certifications",
         "number": 2
+      },
+      {
+        "title": "English Level",
+        "number": "C1"
+      },
+      {
+        "title": "German Level",
+        "number": "B2"
       }
     ],
     "btnText": "View My Projects",
@@ -156,35 +164,35 @@
   "service": {
     "sectionHeading": {
       "miniTitle": "SERVICES",
-      "title": "Design <span>services</span> I am providing"
+      "title": "Backend <span>services</span> I specialize in"
     },
     "allService": [
       {
-        "imgUrl": "/images/service-01.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:brush-fill",
-        "ratings": 5
-      },
-      {
-        "imgUrl": "/images/service-02.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+        "imgUrl": "/images/mobile.png",
+        "title": "API Development",
+        "subTitle": "Design and implement robust, scalable RESTful APIs using best practices for efficient data communication and integration.",
         "icon": "bi:code-square",
-        "ratings": 4.5
-      },
-      {
-        "imgUrl": "/images/service-03.jpg",
-        "title": "SEO Marketing",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:speedometer2",
         "ratings": 5
       },
       {
-        "imgUrl": "/images/service-04.jpg",
-        "title": "Graphic Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:palette",
+        "imgUrl": "/images/dashboard-1.jpg",
+        "title": "System Dashboards",
+        "subTitle": "Develop intuitive and powerful admin panels to manage applications, users, and data with enhanced security and usability.",
+        "icon": "bi:gear-fill",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/machine.webp",
+        "title": "Machine Learning",
+        "subTitle": "Integrate machine learning models into backend systems for data analysis, predictions, and intelligent decision-making capabilities.",
+        "icon": "bi:graph-up",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/aws.webp",
+        "title": "Cloud Infrastructure",
+        "subTitle": "Architect and deploy robust AWS-based cloud solutions for optimal performance, scalability, and cost-efficiency.",
+        "icon": "bi:cloud-fill",
         "ratings": 5
       }
     ]
