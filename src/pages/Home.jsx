@@ -28,7 +28,7 @@ export default function Home() {
       <Projects data={projects} />
       <Service data={service} />
       <Experience data={experience} />
-      <Testimonial data={testimonial} />
+      {/*<Testimonial data={testimonial} />*/}
       <Contact data={contact} socialData={socialBtns} />
     </>
   );

@@ -76,87 +76,87 @@
     },
     "allProjects": [
       {
-        "thumbUrl": "/images/popup-project-1.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/bank-currency-scraper.jpg",
+        "title": "Bank Currency Scraper",
+        "subTitle": "Web Scraping, Data Analysis",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Bank Currency Price Scraper",
+          "description": "Developed a web scraping application to collect and analyze currency exchange rates from multiple banks. The project automates the process of gathering up-to-date currency prices, providing valuable insights for financial analysis and decision-making. <br><br>The application uses advanced web scraping techniques to extract data from various bank websites, processes the information, and presents it in a user-friendly format for easy comparison and analysis.",
+          "type": "Web Application",
+          "country": "Global",
+          "url": "www.bankcurrencyscraper.com"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-2.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/mental-health-app.jpg",
+        "title": "Mental Health Tracker",
+        "subTitle": "Mobile App, Machine Learning",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Comprehensive Mental Health Tracking and Analysis App",
+          "description": "Developed an innovative mental health application that combines mood tracking, stress analysis, and Cognitive Behavioral Therapy (CBT) techniques. The app utilizes machine learning algorithms to provide personalized insights and recommendations. <br><br>Key features include daily mood logging, stress level assessment, CBT exercises, and data visualization for tracking progress over time. The app aims to empower users with tools for better mental health management and self-awareness.",
+          "type": "Mobile Application",
+          "country": "Global",
+          "url": "www.mentalhealthtracker.com"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-3.jpg",
-        "title": "Dashboard Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/saudi-yacht-rental.jpg",
+        "title": "Yacht Rental",
+        "subTitle": "Web Application, Mobile App",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Luxury Yacht Rental Marketplace for Saudi Arabia",
+          "description": "Developed a comprehensive yacht rental platform tailored for the Saudi Arabian market. The application serves two distinct user types: customers looking to rent yachts and yacht providers offering their vessels. <br><br>Key features include an intuitive booking system, detailed yacht listings with high-quality images, real-time availability calendar, secure payment processing, and a review system. The platform also incorporates Arabic language support and adheres to local regulations and customs.",
+          "type": "Web and Mobile Application",
+          "country": "Saudi Arabia",
+          "url": "www.saudiyachtrentals.com"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-4.jpg",
-        "title": "Mobile App Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/home-services-customer.jpg",
+        "title": "HomeServices Customer",
+        "subTitle": "Mobile App, On-Demand Services",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Home Services Booking App for Customers",
+          "description": "Developed a user-friendly mobile application for customers to easily book various home services. The app streamlines the process of finding and hiring skilled professionals for tasks such as cleaning, plumbing, electrical work, and more. <br><br>Key features include service browsing with categories, real-time availability checking, instant booking, in-app messaging with service providers, secure payment processing, and a rating system for completed services.",
+          "type": "Mobile Application",
+          "country": "Global",
+          "url": "www.homehelp-customer.com"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-5.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/home-services-provider.jpg",
+        "title": "HomeServices Company",
+        "subTitle": "Mobile App, Service Management",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Home Services Management App for Service Providers",
+          "description": "Created a comprehensive mobile application for home service providers to manage their business and connect with customers. This app empowers professionals to offer their services, manage bookings, and grow their client base efficiently. <br><br>Key features include profile creation and service listing, real-time job notifications, schedule management, in-app communication with customers, navigation to job locations, digital invoicing, and earnings tracking.",
+          "type": "Mobile Application",
+          "country": "Global",
+          "url": "www.homehelp-provider.com"
         }
       },
       {
-        "thumbUrl": "/images/popup-project-6.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/eramex-customer.jpg",
+        "title": "Eramex Customer",
+        "subTitle": "Mobile App, Logistics",
         "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
+          "title": "Cargo Shipping Booking App for Customers",
+          "description": "Developed a user-friendly mobile application for Eramex, allowing customers to easily book vehicles for shipping their cargo. The app simplifies the process of arranging shipments and tracking deliveries. <br><br>Key features include vehicle selection based on cargo size, real-time pricing, booking management, shipment tracking, in-app messaging with drivers, digital documentation, and delivery confirmation.",
+          "type": "Mobile Application",
+          "country": "Global",
+          "url": "www.eramex-customer.com"
+        }
+      },
+      {
+        "thumbUrl": "/images/eramex-provider.jpg",
+        "title": "Eramex Provider",
+        "subTitle": "Mobile App, Fleet Management",
+        "details": {
+          "title": "Cargo Shipping Management App for Providers",
+          "description": "Created a comprehensive mobile application for Eramex shipping providers to manage their fleet and handle customer shipments efficiently. This app empowers drivers and fleet managers to streamline their operations and provide excellent service. <br><br>Key features include real-time order notifications, route optimization, cargo space management, digital manifests and waybills, in-app navigation, proof of delivery capture, and earnings tracking.",
+          "type": "Mobile Application",
+          "country": "Global",
+          "url": "www.eramex-provider.com"
         }
       }
     ]
@@ -200,32 +200,40 @@
   "experience": {
     "sectionHeading": {
       "miniTitle": "Experience",
-      "title": "My Work <span>Experience</span>"
+      "title": "My Professional <span>Journey</span>"
     },
     "allExperience": [
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "designation": "Backend and DevOps Engineer",
+        "company": "Eramsoft",
+        "duration": "JAN 2023 - PRESENT",
         "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyTitle": "Eramsoft",
+        "companyDescription": "Eramsoft is a leading software development company specializing in innovative solutions. As a Backend and DevOps Engineer, I design and implement scalable backend systems, manage cloud infrastructure, and streamline deployment processes. My role involves working with cutting-edge technologies to deliver high-performance, reliable software solutions."
       },
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
+        "designation": "Software Developer",
+        "company": "Algoriza",
+        "duration": "JUN 2022 - DEC 2022",
         "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "companyTitle": "Algoriza",
+        "companyDescription": "Algoriza is a dynamic tech company focused on developing advanced software solutions. As a Software Developer, I contributed to various projects, honing my skills in backend development and expanding my knowledge of software architecture. I worked on optimizing database queries, implementing RESTful APIs, and collaborating with cross-functional teams to deliver robust applications."
       },
       {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
-        "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
+        "designation": "AI Model Trainer",
+        "company": "RemoTasks",
+        "duration": "JAN 2022 - MAY 2022",
+        "jobType": "Contract",
+        "companyTitle": "RemoTasks",
+        "companyDescription": "Working on remote tasks for AI model training, I gained valuable experience in machine learning and data processing. This role involved preparing and cleaning datasets, training machine learning models, and evaluating model performance. It provided a strong foundation in AI and data science, which has been beneficial in my subsequent roles in software development."
+      },
+      {
+        "designation": "Competitive Programmer",
+        "company": "Codeforces",
+        "duration": "JAN 2021 - DEC 2021",
+        "jobType": "Self-Improvement",
+        "companyTitle": "Codeforces",
+        "companyDescription": "Codeforces is a leading platform for competitive programming. During this period, I dedicated myself to improving my algorithmic problem-solving skills and coding efficiency. I achieved the rank of Specialist and solved over 1,000 problems, covering a wide range of algorithms and data structures. This experience significantly enhanced my analytical thinking and coding proficiency, laying a strong foundation for my professional software development career."
       }
     ]
   },
@@ -260,15 +268,15 @@
       "title": "Let’s Discuss Your Project",
       "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
     },
-    "contactImg": "/images/contact-us.png",
+    "contactImg": "/images/1.jpg",
     "contactInfo": [
       {
         "title": "Write an e-mail",
-        "email": "sample@domain.com"
+        "email": "omargawdaat@gmail.com"
       },
       {
         "title": "write an e-mail",
-        "tel": "+044 9696 9696 3636"
+        "tel": "+201095924873"
       }
     ]
   }
