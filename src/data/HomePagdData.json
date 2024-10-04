@@ -30,6 +30,11 @@
       "icon": "fa-brands:github",
       "iconBgClass": "github",
       "href": "https://github.com/omargawdat"
+    },
+    {
+      "icon": "fa-brands:whatsapp",
+      "iconBgClass": "whatsapp",
+      "href": "https://wa.me/201095924873"
     }
   ],
   "brands": [
