@@ -82,7 +82,7 @@ export default function Projects({data}) {
                                             <div
                                                 className="project-media"
                                                 style={{
-                                                    height: '90%',
+                                                    height: '92%',
                                                     position: 'relative',
                                                     cursor: 'pointer'
                                                 }} // Increased from 80%
@@ -92,8 +92,8 @@ export default function Projects({data}) {
                                                      style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                             </div>
                                             <div className="project-body" style={{
-                                                height: '10%', // Reduced from 20%
-                                                padding: '10px 15px',
+                                                height: '8%', // Reduced from 20%
+                                                padding: '15px 15px',
                                                 display: 'flex',
                                                 flexDirection: 'column',
                                                 justifyContent: 'center' // Center the content vertically
@@ -101,10 +101,10 @@ export default function Projects({data}) {
                                                 <div className="text">
                                                     <h5 style={{
                                                         margin: '0',
-                                                        fontSize: '16px',
+                                                        fontSize: '18px',
                                                         fontWeight: 'bold'
                                                     }}>{item.title}</h5>
-                                                    <span style={{fontSize: '14px'}}>{item.subTitle}</span>
+                                                    {/*<span style={{fontSize: '14px'}}>{item.subTitle}</span>*/}
                                                 </div>
                                             </div>
                                         </div>

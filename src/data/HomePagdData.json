@@ -131,6 +131,28 @@
         }
       },
       {
+        "thumbUrl": "/images/yacht-admin.jpeg",
+        "title": "Bahar Dashboard",
+        "subTitle": "Web App, Vessel Booking System",
+        "details": {
+          "title": "Maritime Vessel Booking and Management Dashboard",
+          "description": "Created Bahar, a sophisticated web application for managing bookings and operations of various maritime vessels. This platform caters to boat rental companies, yacht charters, and commercial shipping operations. <br><br>Key features include vessel availability tracking, automated scheduling, maintenance logs, crew management, and detailed voyage planning tools. Bahar aims to modernize maritime operations by providing a user-friendly, comprehensive solution for vessel booking and management.",
+          "type": "Web Application",
+          "country": "Bahrain"
+        }
+      },
+      {
+        "thumbUrl": "/images/marafiq.jpeg",
+        "title": "Marafiq",
+        "subTitle": "Web App, Booking System",
+        "details": {
+          "title": "Sports Facility Booking and Management Platform",
+          "description": "Developed Marafiq, a comprehensive web application for renting and managing sports courts and grounds. The platform streamlines the booking process for various sports facilities, enhancing accessibility for users and efficiency for facility owners. <br><br>Key features include real-time availability checking, secure online payments, user reviews, and an intuitive dashboard for facility managers. Marafiq aims to promote sports participation by making it easier for people to find and book suitable venues for their activities.",
+          "type": "Web Application",
+          "country": "Saudi Arabia"
+        }
+      },
+      {
         "thumbUrl": "/images/home_provider.jpeg",
         "title": "HomeServices Company",
         "subTitle": "Mobile App, Service Management",
@@ -141,7 +163,6 @@
           "country": "Global"
         }
       },
-
       {
         "thumbUrl": "/images/ex_provider.jpeg",
         "title": "Eramex Provider",
@@ -151,6 +172,17 @@
           "description": "Created a comprehensive mobile application for Eramex shipping providers to manage their fleet and handle customer shipments efficiently. This app empowers drivers and fleet managers to streamline their operations and provide excellent service. <br><br>Key features include real-time order notifications, route optimization, cargo space management, digital manifests and waybills, in-app navigation, proof of delivery capture, and earnings tracking.",
           "type": "Mobile Application",
           "country": "Global"
+        }
+      },
+      {
+        "thumbUrl": "/images/home-admin.jpeg",
+        "title": "System Dashboard",
+        "subTitle": "Web App, Booking Management",
+        "details": {
+          "title": "Home Services Booking Management Dashboard",
+          "description": "Developed HomeServe, a comprehensive web-based dashboard for managing bookings of various home services. This platform enables service providers to efficiently handle customer requests, schedule appointments, and manage their workforce. <br><br>Key features include real-time booking updates, service provider assignment, customer communication tools, and analytics for business insights. HomeServe aims to streamline the home service industry by providing a centralized system for managing diverse service offerings.",
+          "type": "Web Application",
+          "country": "United Arab Emirates"
         }
       }
     ]
@@ -221,7 +253,6 @@
         "companyTitle": "Algoriza",
         "companyDescription": "Algoriza is a dynamic tech company focused on developing advanced software solutions. As a Software Developer, I contributed to various projects, honing my skills in backend development and expanding my knowledge of software architecture. I worked on optimizing database queries, implementing RESTful APIs, and collaborating with cross-functional teams to deliver robust applications."
       },
-
       {
         "designation": "Competitive Programmer",
         "company": "Codeforces",
