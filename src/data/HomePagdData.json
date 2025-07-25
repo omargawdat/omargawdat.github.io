@@ -1,17 +1,15 @@
 {
   "hero": {
-    "imgUrl": "/images/me-no-bg.png",
+    "imgUrl": "/images/me-2.jpeg",
     "name": "Omar Gawdat",
     "heading": "Hello! I'm Omar",
     "typingText": [
-      "Backend Dev",
+      "Backend",
       1000,
-      "AWS Specialist",
-      1000,
-      "Problem Solver",
+      "DEVOPS & Cloud",
       1000
     ],
-    "description": "With 3 years of experience in backend development and AWS, I specialize in building scalable, efficient server-side solutions. I focus on creating robust systems and architectures following best practices. My passion lies in solving complex problems and optimizing cloud infrastructures to deliver high-performance, cutting-edge backend solutions.",
+    "description": "Software Engineer with 3+ years of work experience in backend, DevOps, and AWS cloud. Based in Germany, open to relocation within Germany, My strongest asset is dedication, coding is my life. Check my GitHub activity; I show up almost every day because I genuinely love what I do. This unwavering commitment translates into reliable, scalable solutions and consistent high-quality delivery.",
     "btnText": "View My Projects",
     "btnUrl": "project"
   },
@@ -43,19 +41,15 @@
     "imgSrc": "/images/software.webp",
     "miniTitle": "About Me",
     "title": "I SPECIALIZE IN <span>BACKEND ENGINEERING</span> AND AWS SOLUTIONS",
-    "description": "With 3 years of experience in backend development and AWS technologies, I excel in building scalable, efficient server-side solutions. My expertise lies in designing robust systems and architectures following industry best practices. I'm passionate about solving complex problems, optimizing cloud infrastructures, and delivering high-performance backend solutions that drive business growth. From developing RESTful APIs to managing containerized applications, I'm committed to creating innovative backend systems that meet and exceed client expectations.",
+    "description": "Software Engineer with 3+ years of work experience in backend, DevOps, and AWS cloud. Based in Germany, open to relocation within Germany, My strongest asset is dedication, coding is my life.",
     "funfacts": [
-      {
-        "title": "Projects Completed",
-        "number": 11
-      },
       {
         "title": "Years Experience",
         "number": 3
       },
       {
-        "title": "AWS Certifications",
-        "number": 2
+        "title": "Projects Completed",
+        "number": 11
       },
       {
         "title": "English Level",
@@ -298,11 +292,11 @@
     "contactInfo": [
       {
         "title": "Write an e-mail",
-        "email": "omargawdaat@gmail.com"
+        "email": "omargawdat0@gmail.com"
       },
       {
         "title": "Phone Number & WhatsApp",
-        "tel": "+201095924873"
+        "tel": "+49 1575 6346495"
       }
     ]
   }

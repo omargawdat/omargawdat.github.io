@@ -31,8 +31,8 @@ export default function About({ data }) {
           <div
             className="col-lg-6 col-xl-5"
             data-aos="fade-right"
-            data-aos-duration="1200"
-            data-aos-delay="500"
+            data-aos-duration="600"
+            data-aos-delay="200"
           >
             <div className="about-banner text-center">
               <img src={imgSrc} alt="Thumb" />
@@ -42,8 +42,8 @@ export default function About({ data }) {
             <div
               className="about-text"
               data-aos="fade"
-              data-aos-duration="1200"
-              data-aos-delay="400"
+              data-aos-duration="600"
+              data-aos-delay="100"
             >
               <div className="section-heading">
                 {miniTitle && (
