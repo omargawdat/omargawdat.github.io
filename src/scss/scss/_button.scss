@@ -78,5 +78,20 @@
     &.linkedin {
       background: #1275b1;
     }
+    &.github {
+      background: #333;
+    }
+    &.whatsapp {
+      background: #25d366;
+    }
+    &.codeforces {
+      background: #1f8dd6;
+
+      img {
+        width: 20px;
+        height: 20px;
+        filter: brightness(0) invert(1);
+      }
+    }
   }
 }

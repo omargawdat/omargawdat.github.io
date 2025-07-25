@@ -1,6 +1,5 @@
 import { Icon } from '@iconify/react';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function SocialBtns({ variant, socialBtns }) {
   return (
@@ -11,9 +10,9 @@ export default function SocialBtns({ variant, socialBtns }) {
           data-aos-delay="300"
       >
         {socialBtns?.map((item, index) => (
-            <Link
+            <a
                 className={item.iconBgClass}
-                to={item.href}
+                href={item.href}
                 key={index}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -23,7 +22,7 @@ export default function SocialBtns({ variant, socialBtns }) {
               ) : (
                   <Icon icon={item.icon} />
               )}
-            </Link>
+            </a>
         ))}
       </div>
   );

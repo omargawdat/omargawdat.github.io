@@ -20,19 +20,19 @@
       "href": "https://www.linkedin.com/in/omar-gawdat-2635b51b0"
     },
     {
-      "customIcon": "/images/code-forces_2.svg",
-      "iconBgClass": "codeforces",
-      "href": "https://codeforces.com/profile/omar.gawdat"
-    },
-    {
       "icon": "fa-brands:github",
       "iconBgClass": "github",
       "href": "https://github.com/omargawdat"
     },
     {
+      "customIcon": "/images/code-forces_2.svg",
+      "iconBgClass": "codeforces",
+      "href": "https://codeforces.com/profile/omar.gawdat"
+    },
+    {
       "icon": "fa-brands:whatsapp",
       "iconBgClass": "whatsapp",
-      "href": "https://wa.me/201095924873"
+      "href": "https://wa.me/4915756346495"
     }
   ],
   "brands": [
@@ -40,7 +40,7 @@
   "about": {
     "imgSrc": "/images/software.webp",
     "miniTitle": "About Me",
-    "title": "I SPECIALIZE IN <span>BACKEND ENGINEERING</span> AND AWS SOLUTIONS",
+    "title": "I SPECIALIZE IN <span>BACKEND & Devops</span> ",
     "description": "Software Engineer with 3+ years of work experience in backend, DevOps, and AWS cloud. Based in Germany, open to relocation within Germany, My strongest asset is dedication, coding is my life.",
     "funfacts": [
       {
@@ -184,7 +184,7 @@
   "service": {
     "sectionHeading": {
       "miniTitle": "SERVICES",
-      "title": "Backend <span>services</span> I specialize in"
+      "title": "<span>services</span> I specialize in"
     },
     "allService": [
       {
