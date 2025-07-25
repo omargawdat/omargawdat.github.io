@@ -2,3 +2,12 @@ node_modules/
 .idea/
 .DS_Store/
 build/
+
+# Allow built static files for GitHub Pages
+!index.html
+!asset-manifest.json
+!favicon.ico
+!fav.jpg
+!fav2.jpg
+!static/
+!images/
