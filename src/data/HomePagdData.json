@@ -188,6 +188,20 @@
     },
     "allService": [
       {
+        "imgUrl": "/images/devops.png",
+        "title": "DevOps Pipelines",
+        "subTitle": "Build automated CI/CD pipelines with GitHub Actions, Docker containerization, and Kubernetes deployments for efficient delivery.",
+        "icon": "bi:arrow-repeat",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/aws.webp",
+        "title": "Cloud Infrastructure",
+        "subTitle": "Architect and deploy robust AWS-based cloud solutions for optimal performance, scalability, and cost-efficiency.",
+        "icon": "bi:cloud-fill",
+        "ratings": 5
+      },
+      {
         "imgUrl": "/images/mobile.png",
         "title": "API Development",
         "subTitle": "Design and implement robust, scalable RESTful APIs using best practices for efficient data communication and integration.",
@@ -200,20 +214,6 @@
         "subTitle": "Develop intuitive and powerful admin panels to manage applications, users, and data with enhanced security and usability.",
         "icon": "bi:gear-fill",
         "ratings": 5
-      },
-      {
-        "imgUrl": "/images/machine.webp",
-        "title": "Machine Learning",
-        "subTitle": "Integrate machine learning models into backend systems for data analysis, predictions, and intelligent decision-making capabilities.",
-        "icon": "bi:graph-up",
-        "ratings": 5
-      },
-      {
-        "imgUrl": "/images/aws.webp",
-        "title": "Cloud Infrastructure",
-        "subTitle": "Architect and deploy robust AWS-based cloud solutions for optimal performance, scalability, and cost-efficiency.",
-        "icon": "bi:cloud-fill",
-        "ratings": 5
       }
     ]
   },
@@ -224,36 +224,36 @@
     },
     "allExperience": [
       {
-        "designation": "Backend and DevOps Engineer",
-        "company": "Eramsoft",
-        "duration": "MAR 2023 - PRESENT",
+        "designation": "DevOps Engineer",
+        "company": "Eram Group",
+        "duration": "OCT 2024 - PRESENT",
         "jobType": "Full time",
-        "companyTitle": "Eramsoft",
-        "companyDescription": "Eramsoft is a leading software development company specializing in innovative solutions. As a Backend and DevOps Engineer, I design and implement scalable backend systems, manage cloud infrastructure, and streamline deployment processes. My role involves working with cutting-edge technologies to deliver high-performance, reliable software solutions."
+        "companyTitle": "Eram Group",
+        "companyDescription": "Leading DevOps initiatives at Eram Group, focusing on cloud infrastructure automation and deployment optimization. I automate AWS infrastructure using Terraform, containerize applications with Docker, and manage deployments via Kubernetes. My role involves building CI/CD pipelines with GitHub Actions to improve delivery speed, setting up monitoring and alerting with CloudWatch for system reliability, and enabling high availability and scalability with Auto Scaling and fault-tolerant architectures."
       },
       {
-        "designation": "AI Model Trainer",
-        "company": "RemoTasks",
+        "designation": "Backend Developer",
+        "company": "Eram Group",
+        "duration": "MAR 2023 - OCT 2024",
+        "jobType": "Full time",
+        "companyTitle": "Eram Group",
+        "companyDescription": "Developed comprehensive backend services and integrated cutting-edge AI services & LLMs at Eram Group. I supervised junior developers and collaborated closely with product owners on requirements and SRS documentation. A key achievement was building an AI-powered dashboard that pulls directly from databases to generate real-time insights, significantly enhancing data-driven decision making across the organization."
+      },
+      {
+        "designation": "Software Engineer",
+        "company": "Outlier, USA",
         "duration": "DEC 2022 - MAY 2023",
         "jobType": "Contract",
-        "companyTitle": "RemoTasks",
-        "companyDescription": "Working on remote tasks for AI model training, I gained valuable experience in machine learning and data processing. This role involved preparing and cleaning datasets, training machine learning models, and evaluating model performance. It provided a strong foundation in AI and data science, which has been beneficial in my subsequent roles in software development."
+        "companyTitle": "Outlier, USA",
+        "companyDescription": "Specialized in AI model optimization at Outlier, focusing on fine-tuning Large Language Models (LLMs) to enhance response accuracy by 35%. I created sophisticated feedback loops for continuous model optimization, contributing to significant improvements in AI system performance and reliability. This role provided deep expertise in machine learning model training and optimization techniques."
       },
       {
-        "designation": "Software Developer",
+        "designation": "Software Engineer Intern",
         "company": "Algoriza",
         "duration": "MAY 2022 - OCT 2022",
-        "jobType": "Full time",
+        "jobType": "Internship",
         "companyTitle": "Algoriza",
-        "companyDescription": "Algoriza is a dynamic tech company focused on developing advanced software solutions. As a Software Developer, I contributed to various projects, honing my skills in backend development and expanding my knowledge of software architecture. I worked on optimizing database queries, implementing RESTful APIs, and collaborating with cross-functional teams to deliver robust applications."
-      },
-      {
-        "designation": "Competitive Programmer",
-        "company": "Codeforces",
-        "duration": "FEB 2021 - MAR 2022",
-        "jobType": "Self-Improvement",
-        "companyTitle": "Codeforces",
-        "companyDescription": "Codeforces is a leading platform for competitive programming. During this period, I dedicated myself to improving my algorithmic problem-solving skills and coding efficiency. I achieved the rank of Specialist and solved over 1,000 problems, covering a wide range of algorithms and data structures. This experience significantly enhanced my analytical thinking and coding proficiency, laying a strong foundation for my professional software development career."
+        "companyDescription": "Gained foundational software development experience at Algoriza, learning Agile methodologies and Test-Driven Development (TDD) practices while successfully delivering 5 key features. I developed proficiency in Git workflow management and code refactoring techniques, establishing strong software engineering fundamentals that became the foundation for my professional career in backend development and DevOps."
       }
     ]
   },
