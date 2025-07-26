@@ -33,6 +33,11 @@
       "icon": "fa-brands:whatsapp",
       "iconBgClass": "whatsapp",
       "href": "https://wa.me/4915756346495"
+    },
+    {
+      "icon": "logos:google-gmail",
+      "iconBgClass": "gmail",
+      "href": "https://mail.google.com/mail/?view=cm&fs=1&to=omargawdat0@gmail.com&su=Professional%20Inquiry%20-%20Omar%20Gawdat"
     }
   ],
   "brands": [

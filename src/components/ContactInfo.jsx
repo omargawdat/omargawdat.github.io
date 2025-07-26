@@ -12,7 +12,15 @@ export default function ContactInfo({ contactInfoData }) {
           data-aos-delay={index * 100}
         >
           <label>{item.title}</label>
-          {item.email && <a href={`mailto:${item.email}`}>{item.email}</a>}
+          {item.email && (
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=omargawdat0@gmail.com&su=Professional%20Inquiry%20-%20Omar%20Gawdat"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {item.email}
+            </a>
+          )}
           {item.tel && <a href={`tel:${item.tel}`}>{item.tel}</a>}
         </div>
       ))}
