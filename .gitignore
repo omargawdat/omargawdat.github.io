@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+package-lock.json
 
 # Production build
 build/
@@ -45,3 +46,23 @@ coverage/
 # Temporary folders
 tmp/
 temp/
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific
+*~
+
+# Editor backup files
+*.swp
+*.swo
+*~
+
+# Webpack bundle analyzer
+bundle-analyzer-report.html
