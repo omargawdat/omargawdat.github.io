@@ -15,9 +15,6 @@ export default function Hero({ data, socialData }) {
             <div className="hs-text-box">
               <div className="d-flex flex-wrap gap-2 mb-2" data-aos="fade-up" data-aos-duration="1200">
                 <h6 className="m-0">
-                  <span>{name}</span>
-                </h6>
-                <h6 className="m-0">
                   <span>🇩🇪 Germany</span>
                 </h6>
                 <h6 className="m-0">
