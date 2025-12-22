@@ -4,17 +4,16 @@ import ContactInfo from './ContactInfo';
 import ContactForm from './ContactForm';
 
 export default function Contact({ data, socialData }) {
-  const { sectionHeading, contactImg, contactInfo } = data;
+  const { sectionHeading, contactInfo } = data;
   return (
     <section id="contactus" className="section contactus-section">
       <div className="container">
         <div className="contactus-box rounded oveflow-hidden gray-bg">
-          <div className="row g-0 p-4 p-lg-5">
-            <div className="col-lg-4" />
-            <div className="col-lg-8">
+          <div className="row g-0 p-4 p-lg-5 pb-0">
+            <div className="col-12">
               <div
                 className="contactus-title"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
@@ -23,18 +22,15 @@ export default function Contact({ data, socialData }) {
               </div>
             </div>
           </div>
-          <div className="row g-0 contactus-form p-4 p-lg-5 flex-row-reverse">
+          <div className="row g-0 contactus-form p-4 p-lg-5 align-items-start">
+            <div className="col-lg-4 pe-lg-5 mb-4 mb-lg-0">
+              <ContactInfo contactInfoData={contactInfo} />
+              <SocialBtns socialBtns={socialData} />
+            </div>
             <div className="col-lg-8">
               <div className="contact-form">
                 <ContactForm />
               </div>
-            </div>
-            <div className="col-lg-4 pe-md-5">
-              <div className="contact-banner d-none d-lg-block">
-                <img src={contactImg} title alt="Avatar" />
-              </div>
-              <ContactInfo contactInfoData={contactInfo} />
-              <SocialBtns socialBtns={socialData} />
             </div>
           </div>
         </div>
