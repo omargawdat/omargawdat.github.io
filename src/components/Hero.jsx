@@ -13,9 +13,17 @@ export default function Hero({ data, socialData }) {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="hs-text-box">
-              <h6 data-aos="fade-up" data-aos-duration="1200">
-                <span>{name}</span>
-              </h6>
+              <div className="d-flex flex-wrap gap-2 mb-2" data-aos="fade-up" data-aos-duration="1200">
+                <h6 className="m-0">
+                  <span>{name}</span>
+                </h6>
+                <h6 className="m-0">
+                  <span>🇩🇪 Germany</span>
+                </h6>
+                <h6 className="m-0">
+                  <span>🎓 Master's in IT</span>
+                </h6>
+              </div>
 
               <h1
                 data-aos="fade-up"

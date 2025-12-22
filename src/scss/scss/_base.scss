@@ -9,6 +9,16 @@ body {
   overflow-x: hidden;
 }
 
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 img {
   max-width: 100%;
 }

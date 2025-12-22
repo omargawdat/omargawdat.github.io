@@ -1,6 +1,6 @@
 {
   "hero": {
-    "imgUrl": "/images/me-2.jpeg",
+    "imgUrl": "/images/omar.png",
     "name": "Omar Gawdat",
     "heading": "Hello! I'm Omar",
     "typingText": [
@@ -9,7 +9,7 @@
       "DEVOPS & Cloud",
       1000
     ],
-    "description": "Software Engineer with 3+ years of work experience in backend, DevOps, and AWS cloud. Based in Germany, open to relocation within Germany, My strongest asset is dedication, coding is my life. Check my GitHub activity; I show up almost every day because I genuinely love what I do. This unwavering commitment translates into reliable, scalable solutions and consistent high-quality delivery.",
+    "description": "Software Engineer with 3+ years of work experience in backend, DevOps, and AWS cloud. Currently pursuing a Master's degree in Germany. My strongest asset is dedication, coding is my life. Check my GitHub activity; I show up almost every day because I genuinely love what I do. This unwavering commitment translates into reliable, scalable solutions and consistent high-quality delivery.",
     "btnText": "View My Projects",
     "btnUrl": "project"
   },
@@ -23,16 +23,6 @@
       "icon": "fa-brands:github",
       "iconBgClass": "github",
       "href": "https://github.com/omargawdat"
-    },
-    {
-      "customIcon": "/images/code-forces_2.svg",
-      "iconBgClass": "codeforces",
-      "href": "https://codeforces.com/profile/omar.gawdat"
-    },
-    {
-      "icon": "fa-brands:whatsapp",
-      "iconBgClass": "whatsapp",
-      "href": "https://wa.me/4915756346495"
     },
     {
       "icon": "logos:google-gmail",
@@ -229,25 +219,17 @@
     },
     "allExperience": [
       {
-        "designation": "DevOps Engineer",
-        "company": "Eram Group",
-        "duration": "OCT 2024 - PRESENT",
+        "designation": "Backend Developer → DevOps Engineer",
+        "company": "Eram Group, Dubai, UAE",
+        "duration": "03/2023 – 12/2025",
         "jobType": "Full time",
-        "companyTitle": "Eram Group",
-        "companyDescription": "Leading DevOps initiatives at Eram Group, focusing on cloud infrastructure automation and deployment optimization. I automate AWS infrastructure using Terraform, containerize applications with Docker, and manage deployments via Kubernetes. My role involves building CI/CD pipelines with GitHub Actions to improve delivery speed, setting up monitoring and alerting with CloudWatch for system reliability, and enabling high availability and scalability with Auto Scaling and fault-tolerant architectures."
-      },
-      {
-        "designation": "Backend Developer",
-        "company": "Eram Group",
-        "duration": "MAR 2023 - OCT 2024",
-        "jobType": "Full time",
-        "companyTitle": "Eram Group",
-        "companyDescription": "Developed comprehensive backend services and integrated cutting-edge AI services & LLMs at Eram Group. I supervised junior developers and collaborated closely with product owners on requirements and SRS documentation. A key achievement was building an AI-powered dashboard that pulls directly from databases to generate real-time insights, significantly enhancing data-driven decision making across the organization."
+        "companyTitle": "Eram Group, Dubai, UAE",
+        "companyDescription": "Started as Backend Developer building comprehensive backend services, integrating AI services & LLMs, and supervising junior developers. Promoted to DevOps Engineer leading cloud infrastructure automation with Terraform, Docker containerization, and Kubernetes deployments. Built CI/CD pipelines with GitHub Actions, set up CloudWatch monitoring, and implemented high availability architectures with Auto Scaling."
       },
       {
         "designation": "Software Engineer",
         "company": "Outlier, USA",
-        "duration": "DEC 2022 - MAY 2023",
+        "duration": "09/2022 – 02/2023",
         "jobType": "Contract",
         "companyTitle": "Outlier, USA",
         "companyDescription": "Specialized in AI model optimization at Outlier, focusing on fine-tuning Large Language Models (LLMs) to enhance response accuracy by 35%. I created sophisticated feedback loops for continuous model optimization, contributing to significant improvements in AI system performance and reliability. This role provided deep expertise in machine learning model training and optimization techniques."
@@ -255,7 +237,7 @@
       {
         "designation": "Software Engineer Intern",
         "company": "Algoriza",
-        "duration": "MAY 2022 - OCT 2022",
+        "duration": "04/2022 – 07/2022",
         "jobType": "Internship",
         "companyTitle": "Algoriza",
         "companyDescription": "Gained foundational software development experience at Algoriza, learning Agile methodologies and Test-Driven Development (TDD) practices while successfully delivering 5 key features. I developed proficiency in Git workflow management and code refactoring techniques, establishing strong software engineering fundamentals that became the foundation for my professional career in backend development and DevOps."

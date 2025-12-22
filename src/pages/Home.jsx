@@ -23,11 +23,11 @@ export default function Home() {
     return (
         <>
             <Hero data={hero} socialData={socialBtns}/>
+            <Experience data={experience}/>
+            <Projects data={projects}/>
             <Brands data={brands}/>
             <About data={about}/>
             <Service data={service}/>
-            <Projects data={projects}/>
-            <Experience data={experience}/>
             {/*<Testimonial data={testimonial} />*/}
             <Contact data={contact} socialData={socialBtns}/>
         </>
