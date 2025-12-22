@@ -1,32 +1,8 @@
 import { Icon } from '@iconify/react';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import SectionHeading from './SectionHeading';
 
-// Extract App Store ID from URL or use directly if it's just an ID
-const getAppStoreId = (urlOrId) => {
-    if (!urlOrId) return null;
-    // If it's just a number, return it
-    if (/^\d+$/.test(urlOrId)) return urlOrId;
-    // Extract ID from App Store URL (e.g., /id6754637619)
-    const match = urlOrId.match(/\/id(\d+)/);
-    return match ? match[1] : null;
-};
-
-// Fetch app icon from iTunes API
-const fetchAppIcon = async (appId) => {
-    try {
-        const response = await fetch(`https://itunes.apple.com/lookup?id=${appId}`);
-        const data = await response.json();
-        if (data.results && data.results.length > 0) {
-            return data.results[0].artworkUrl512 || data.results[0].artworkUrl100;
-        }
-    } catch (error) {
-        console.error('Failed to fetch app icon:', error);
-    }
-    return null;
-};
-
-const ProjectBox = ({ item, appIcon }) => {
+const ProjectBox = ({ item }) => {
     const hasUrl = item.url && item.url.trim() !== '';
 
     const handleClick = () => {
@@ -46,9 +22,9 @@ const ProjectBox = ({ item, appIcon }) => {
         >
             {/* App Logo */}
             <div style={styles.logoContainer}>
-                {appIcon ? (
+                {item.iconUrl ? (
                     <img
-                        src={appIcon}
+                        src={item.iconUrl}
                         alt={item.title}
                         style={styles.appLogo}
                     />
@@ -141,25 +117,6 @@ const styles = {
 
 export default function Projects({ data }) {
     const { sectionHeading, allProjects } = data;
-    const [appIcons, setAppIcons] = useState({});
-
-    // Fetch app icons for all projects with App Store IDs
-    useEffect(() => {
-        const fetchAllIcons = async () => {
-            const icons = {};
-            for (const project of allProjects || []) {
-                const appId = getAppStoreId(project.appStoreId || project.url);
-                if (appId) {
-                    const iconUrl = await fetchAppIcon(appId);
-                    if (iconUrl) {
-                        icons[project.title] = iconUrl;
-                    }
-                }
-            }
-            setAppIcons(icons);
-        };
-        fetchAllIcons();
-    }, [allProjects]);
 
     return (
         <section className="project-section section gray-bg" id="project">
@@ -171,7 +128,7 @@ export default function Projects({ data }) {
                 <div className="row gy-4" data-aos="fade" data-aos-duration="1200" data-aos-delay="400">
                     {allProjects?.map((item, index) => (
                         <div key={index} className="col-lg-4 col-md-6">
-                            <ProjectBox item={item} appIcon={appIcons[item.title]} />
+                            <ProjectBox item={item} />
                         </div>
                     ))}
                 </div>

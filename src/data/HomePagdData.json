@@ -67,49 +67,43 @@
       {
         "title": "Eram Ex",
         "subTitle": "Mobile App, Logistics",
-        "summary": "Request cargo transfers, drivers accept and you track delivery",
         "icon": "bi:truck",
-        "appStoreId": "6740029343",
+        "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/59/ca/4c59ca01-8705-e8a0-6d68-3e5cb8b42196/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/512x512bb.jpg",
         "url": "https://apps.apple.com/app/id6740029343"
       },
       {
         "title": "Egypt Financial Market",
         "subTitle": "Mobile App, Finance",
-        "summary": "Track gold prices and currency exchange rates in Egypt",
         "icon": "bi:currency-exchange",
-        "appStoreId": "6475738074",
+        "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/06/c7/ae06c736-f0de-c562-3bf1-90d8b50c39db/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "url": "https://apps.apple.com/app/id6475738074"
       },
       {
         "title": "Weem",
         "subTitle": "Mobile App, E-Commerce",
-        "summary": "E-commerce platform with full ERP integration",
         "icon": "bi:cart",
-        "appStoreId": "6744400511",
+        "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/ea/fc/5beafcaa-2825-58c0-ce90-f015315c24f5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "url": "https://apps.apple.com/app/id6744400511"
       },
       {
         "title": "Home Service",
         "subTitle": "Mobile App, On-Demand Services",
-        "summary": "Request home repairs and maintenance services",
         "icon": "bi:house-door",
-        "appStoreId": "6624303709",
+        "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/a7/a8/f3a7a858-a0b0-2368-ccac-586d709f43f3/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
         "url": "https://apps.apple.com/app/id6624303709"
       },
       {
         "title": "Bahar",
         "subTitle": "Mobile App, Yacht Booking",
-        "summary": "Book luxury yachts and maritime experiences",
         "icon": "bi:water",
-        "appStoreId": "6615062741",
+        "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/64/85/546485c6-bee6-3a41-3f63-10d088319bed/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "url": "https://apps.apple.com/app/id6615062741"
       },
       {
         "title": "Smart Manasik",
         "subTitle": "Mobile App, Hajj & Umrah",
-        "summary": "Hajj and Umrah services app for pilgrims in Saudi Arabia",
         "icon": "bi:geo-alt",
-        "appStoreId": "6754637619",
+        "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/1c/f1/ea1cf1b3-e136-d658-ac24-8c456f0fd4ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
         "url": "https://apps.apple.com/app/id6754637619"
       }
     ]
