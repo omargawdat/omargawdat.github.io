@@ -78,8 +78,24 @@ export default function Hero({ data, socialData }) {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="hs-banner">
-              <img src={imgUrl} title alt="Admin" />
+            <div className="hs-banner" style={{
+              width: '510px',
+              height: '510px',
+              maxWidth: '100%',
+              margin: '0 auto',
+              borderRadius: '20px',
+              overflow: 'hidden'
+            }}>
+              <img
+                src={imgUrl}
+                alt="Omar Gawdat"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center top'
+                }}
+              />
             </div>
           </div>
         </div>

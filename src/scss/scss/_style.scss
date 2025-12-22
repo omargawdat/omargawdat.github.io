@@ -316,97 +316,21 @@ a {
 *   Projects
 ---------------------------*/
 .project-section {
-  overflow: hidden;
+  overflow: visible;
   .owl-stage-outer {
     overflow: inherit;
   }
+  .slider-container {
+    overflow: visible;
+  }
 }
 .project-box {
-  padding: 14px;
-  border-radius: 10px;
-  background: var(--px-white);
-  .project-media {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    img {
-      transition: ease all 0.35s;
-      transform: scale(1);
-    }
-    .gallery-link {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: rgba(0, 0, 0, 0.5);
-      opacity: 0;
-      cursor: pointer;
-      transition: ease all 0.35s;
-      i {
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: var(--px-white);
-        color: var(--px-black);
-        font-size: 35px;
-        border-radius: 50%;
-      }
-    }
-  }
-  &:hover {
-    .project-media {
-      img {
-        transform: scale(1.05);
-      }
-      .gallery-link {
-        opacity: 1;
-      }
-    }
-  }
+  transition: all 0.3s ease;
 
-  .project-body {
-    display: flex;
-    align-items: center;
-    padding-top: 20px;
-    h5 {
-      font-weight: 700;
-      color: var(--px-black);
-      font-weight: 20px;
-      margin: 0 0 5px;
-    }
-    .text {
-      flex: 0 0 calc(100% - 50px);
-      padding-right: 10px;
-      span {
-        font-size: 14px;
-      }
-    }
-    .link {
-      width: 50px;
-      .p-link {
-        width: 45px;
-        height: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: var(--px-theme);
-        color: var(--px-white);
-        font-size: 20px;
-        border-radius: 50%;
-        border: 2px solid var(--px-black);
-        cursor: pointer;
-        transition: all 0.4s ease;
-        &:hover {
-          background: var(--px-black);
-        }
-      }
-    }
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(7, 136, 255, 0.2) !important;
+    border-color: rgba(7, 136, 255, 0.5) !important;
   }
 }
 

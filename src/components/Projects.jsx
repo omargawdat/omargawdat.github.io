@@ -1,144 +1,181 @@
 import { Icon } from '@iconify/react';
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import SectionHeading from './SectionHeading';
-import Slider from 'react-slick';
-import Modal from './Modal';
 
-const SliderButton = ({ direction, onClick }) => (
-    <button
-        onClick={onClick}
-        style={{
-            position: 'absolute',
-            [direction]: 0,
-            top: '50%',
-            transform: 'translateY(-50%)',
-            zIndex: 1,
-            background: 'rgba(0,0,0,0.5)',
-            color: 'white',
-            border: 'none',
-            padding: '10px',
-            cursor: 'pointer'
-        }}
-    >
-        <Icon icon={`bi:chevron-${direction}`} width="24" height="24" />
-    </button>
-);
+// Extract App Store ID from URL or use directly if it's just an ID
+const getAppStoreId = (urlOrId) => {
+    if (!urlOrId) return null;
+    // If it's just a number, return it
+    if (/^\d+$/.test(urlOrId)) return urlOrId;
+    // Extract ID from App Store URL (e.g., /id6754637619)
+    const match = urlOrId.match(/\/id(\d+)/);
+    return match ? match[1] : null;
+};
 
-const ProjectBox = ({ item, onProjectClick }) => (
-    <div className="project-box" style={styles.projectBox}>
+// Fetch app icon from iTunes API
+const fetchAppIcon = async (appId) => {
+    try {
+        const response = await fetch(`https://itunes.apple.com/lookup?id=${appId}`);
+        const data = await response.json();
+        if (data.results && data.results.length > 0) {
+            return data.results[0].artworkUrl512 || data.results[0].artworkUrl100;
+        }
+    } catch (error) {
+        console.error('Failed to fetch app icon:', error);
+    }
+    return null;
+};
+
+const ProjectBox = ({ item, appIcon }) => {
+    const hasUrl = item.url && item.url.trim() !== '';
+
+    const handleClick = () => {
+        if (hasUrl) {
+            window.open(item.url, '_blank', 'noopener,noreferrer');
+        }
+    };
+
+    return (
         <div
-            className="project-media"
-            style={styles.projectMedia}
-            onClick={() => onProjectClick(item)}
+            className="project-box"
+            style={{
+                ...styles.projectBox,
+                cursor: hasUrl ? 'pointer' : 'default'
+            }}
+            onClick={handleClick}
         >
-            <img src={item.thumbUrl} alt="Thumb" style={styles.projectImage} />
+            {/* App Logo */}
+            <div style={styles.logoContainer}>
+                {appIcon ? (
+                    <img
+                        src={appIcon}
+                        alt={item.title}
+                        style={styles.appLogo}
+                    />
+                ) : (
+                    <div style={styles.placeholderLogo}>
+                        <Icon icon={item.icon || 'bi:folder'} width="60" height="60" style={styles.icon} />
+                    </div>
+                )}
+            </div>
+
+            {/* App Info */}
+            <h5 style={styles.appName}>{item.title}</h5>
+            <p style={styles.appCategory}>{item.subTitle}</p>
+
+            {/* App Store Button */}
+            {hasUrl && (
+                <div style={styles.storeButton}>
+                    <Icon icon="bi:apple" width="16" height="16" />
+                    <span>App Store</span>
+                    <Icon icon="bi:box-arrow-up-right" width="12" height="12" />
+                </div>
+            )}
         </div>
-        <div className="project-body" style={styles.projectBody}>
-            <h5 style={styles.projectTitle}>{item.title}</h5>
-        </div>
-    </div>
-);
+    );
+};
 
 const styles = {
     projectBox: {
         width: '100%',
-        height: '500px',
-        boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-        borderRadius: '10px',
-        overflow: 'hidden'
-    },
-    projectMedia: {
-        height: '92%',
-        position: 'relative',
-        cursor: 'pointer'
-    },
-    projectImage: {
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover'
-    },
-    projectBody: {
-        height: '8%',
-        padding: '15px',
+        background: 'linear-gradient(145deg, #1a2332 0%, #0d1520 100%)',
+        borderRadius: '24px',
+        padding: '32px 24px',
+        cursor: 'pointer',
+        transition: 'all 0.3s ease',
+        border: '1px solid rgba(7, 136, 255, 0.15)',
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'center'
+        alignItems: 'center',
+        textAlign: 'center'
     },
-    projectTitle: {
-        margin: 0,
-        fontSize: '18px',
-        fontWeight: 'bold'
+    logoContainer: {
+        marginBottom: '20px'
+    },
+    appLogo: {
+        width: '120px',
+        height: '120px',
+        borderRadius: '28px',
+        objectFit: 'cover',
+        boxShadow: '0 12px 40px rgba(0, 0, 0, 0.4)'
+    },
+    placeholderLogo: {
+        width: '120px',
+        height: '120px',
+        borderRadius: '28px',
+        background: 'linear-gradient(145deg, #0788ff 0%, #0560c0 100%)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        boxShadow: '0 12px 40px rgba(7, 136, 255, 0.3)'
+    },
+    icon: {
+        color: 'white'
+    },
+    appName: {
+        margin: '0 0 6px 0',
+        fontSize: '20px',
+        fontWeight: '700',
+        color: '#fff'
+    },
+    appCategory: {
+        margin: '0 0 20px 0',
+        fontSize: '14px',
+        color: 'rgba(255,255,255,0.5)',
+        fontWeight: '400'
+    },
+    storeButton: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: '8px',
+        padding: '10px 20px',
+        background: 'rgba(255, 255, 255, 0.1)',
+        borderRadius: '12px',
+        color: '#fff',
+        fontSize: '14px',
+        fontWeight: '500',
+        transition: 'all 0.2s ease',
+        border: '1px solid rgba(255, 255, 255, 0.1)'
     }
 };
 
 export default function Projects({ data }) {
-    const [modal, setModal] = useState(false);
-    const [modalData, setModalData] = useState({});
     const { sectionHeading, allProjects } = data;
-    const sliderRef = useRef(null);
+    const [appIcons, setAppIcons] = useState({});
 
-    const handleProjectDetails = (item) => {
-        setModalData(item);
-        setModal(true);
-    };
-
-    const settings = {
-        dots: true,
-        arrows: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        speed: 1000,
-        slidesToShow: 4,
-        slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: { slidesToShow: 2 }
-            },
-            {
-                breakpoint: 600,
-                settings: { slidesToShow: 1 }
+    // Fetch app icons for all projects with App Store IDs
+    useEffect(() => {
+        const fetchAllIcons = async () => {
+            const icons = {};
+            for (const project of allProjects || []) {
+                const appId = getAppStoreId(project.appStoreId || project.url);
+                if (appId) {
+                    const iconUrl = await fetchAppIcon(appId);
+                    if (iconUrl) {
+                        icons[project.title] = iconUrl;
+                    }
+                }
             }
-        ]
-    };
+            setAppIcons(icons);
+        };
+        fetchAllIcons();
+    }, [allProjects]);
 
     return (
-        <>
-            <section className="project-section section gray-bg" id="project">
-                <div className="container">
-                    <SectionHeading
-                        miniTitle={sectionHeading.miniTitle}
-                        title={sectionHeading.title}
-                    />
-                    <div className="full-width" data-aos="fade" data-aos-duration="1200" data-aos-delay="400">
-                        <div className="slider-container" style={{ position: 'relative', padding: '0 40px' }}>
-                            <Slider ref={sliderRef} {...settings} className="slider-gap-24">
-                                {allProjects?.map((item, index) => (
-                                    <div key={index} style={{ padding: '0 10px' }}>
-                                        <ProjectBox item={item} onProjectClick={handleProjectDetails} />
-                                    </div>
-                                ))}
-                            </Slider>
-                            <SliderButton direction="left" onClick={() => sliderRef.current.slickPrev()} />
-                            <SliderButton direction="right" onClick={() => sliderRef.current.slickNext()} />
+        <section className="project-section section gray-bg" id="project">
+            <div className="container">
+                <SectionHeading
+                    miniTitle={sectionHeading.miniTitle}
+                    title={sectionHeading.title}
+                />
+                <div className="row gy-4" data-aos="fade" data-aos-duration="1200" data-aos-delay="400">
+                    {allProjects?.map((item, index) => (
+                        <div key={index} className="col-lg-4 col-md-6">
+                            <ProjectBox item={item} appIcon={appIcons[item.title]} />
                         </div>
-                    </div>
+                    ))}
                 </div>
-            </section>
-            {modal && (
-                <div className="mfp-wrap" style={styles.modalWrapper}>
-                    <div className="mfp-container" style={styles.modalContainer}>
-                        <div className="mfp-bg" onClick={() => setModal(false)} style={styles.modalBackground}></div>
-                        <div className="mfp-content" style={styles.modalContent}>
-                            <button type="button" className="mfp-close" onClick={() => setModal(false)} style={styles.closeButton}>
-                                ×
-                            </button>
-                            <Modal modalData={modalData} />
-                        </div>
-                    </div>
-                </div>
-            )}
-        </>
+            </div>
+        </section>
     );
 }

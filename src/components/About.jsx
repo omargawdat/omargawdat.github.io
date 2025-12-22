@@ -34,8 +34,24 @@ export default function About({ data }) {
             data-aos-duration="600"
             data-aos-delay="200"
           >
-            <div className="about-banner text-center">
-              <img src={imgSrc} alt="Thumb" />
+            <div className="about-banner text-center" style={{
+              width: '500px',
+              height: '600px',
+              maxWidth: '100%',
+              margin: '0 auto',
+              borderRadius: '20px',
+              overflow: 'hidden'
+            }}>
+              <img
+                src={imgSrc}
+                alt="Omar Gawdat"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center top'
+                }}
+              />
             </div>
           </div>
           <div className="col-lg-6 col-xl-5 px-lg-5">
