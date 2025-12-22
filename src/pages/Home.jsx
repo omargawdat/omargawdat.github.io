@@ -23,8 +23,8 @@ export default function Home() {
     return (
         <>
             <Hero data={hero} socialData={socialBtns}/>
-            <Experience data={experience}/>
             <Projects data={projects}/>
+            <Experience data={experience}/>
             <Brands data={brands}/>
             <About data={about}/>
             <Service data={service}/>
