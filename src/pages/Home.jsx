@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-import Aos from 'aos';
 import Brands from '../components/Brands';
 import Projects from '../components/Projects';
 // import Testimonial from '../components/Testimonial';
@@ -11,10 +9,6 @@ import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 
 export default function Home() {
-    useEffect(() => {
-        Aos.refresh();
-    }, []);
-
     const {
         hero,
         socialBtns,

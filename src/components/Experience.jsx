@@ -5,9 +5,6 @@ import SectionHeading from './SectionHeading';
 const ExperienceCard = ({ item, index }) => (
   <div
     className="col-12"
-    data-aos="fade-up"
-    data-aos-duration="1200"
-    data-aos-delay={index * 100}
   >
     <div style={styles.card}>
       <div style={styles.cardContent}>
